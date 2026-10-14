@@ -21,9 +21,9 @@ export default function BrandStrip() {
               <ShieldCheck className="w-4 h-4" />
               AUTHENTIC BRANDS STOCKED & SUPPORTED
             </div>
-            <h3 className="text-xl sm:text-2xl font-heading font-black text-white uppercase tracking-wider">
-              TRUSTED MANUFACTURER SPARES & LUBRICANTS
-            </h3>
+        <h2 className="text-xl sm:text-2xl font-heading font-black text-white uppercase tracking-wider">
+          TRUSTED MANUFACTURER SPARES & LUBRICANTS
+        </h2>
           </div>
 
           {/* Filter Pills */}

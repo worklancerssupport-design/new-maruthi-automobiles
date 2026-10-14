@@ -15,12 +15,13 @@ export default function Header() {
 
   const navLinks = [
     { name: 'Home', href: '#hero' },
-    { name: 'Spare Parts', href: '#spare-parts' },
     { name: 'Brands', href: '#brands' },
+    { name: 'Spare Parts', href: '#spare-parts' },
     { name: 'Bike Anatomy', href: '#bike-anatomy' },
     { name: 'Compatibility', href: '#compatibility' },
-    { name: 'Reviews', href: '#reviews' },
     { name: 'About', href: '#about' },
+    { name: 'Reviews', href: '#reviews' },
+    { name: 'FAQ', href: '#faq' },
     { name: 'Contact', href: '#contact' },
   ];
 
@@ -78,10 +79,12 @@ export default function Header() {
 
           {/* Tablet Compact Nav */}
           <nav className="hidden lg:flex xl:hidden items-center gap-4 text-xs font-heading uppercase tracking-wider">
+            <a href="#brands" className="text-automotive-silver hover:text-white">Brands</a>
             <a href="#spare-parts" className="text-automotive-silver hover:text-white">Spares</a>
             <a href="#bike-anatomy" className="text-automotive-silver hover:text-white">Anatomy</a>
             <a href="#compatibility" className="text-automotive-silver hover:text-white">Compatibility</a>
             <a href="#reviews" className="text-automotive-silver hover:text-white">Reviews</a>
+            <a href="#faq" className="text-automotive-silver hover:text-white">FAQ</a>
             <a href="#contact" className="text-automotive-silver hover:text-white">Contact</a>
           </nav>
 

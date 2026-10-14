@@ -1,4 +1,5 @@
 import React from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import BrandStrip from './components/BrandStrip';
@@ -7,6 +8,7 @@ import BikeAnatomy from './components/BikeAnatomy';
 import CompatibilitySection from './components/CompatibilitySection';
 import AboutSection from './components/AboutSection';
 import ReviewsSection from './components/ReviewsSection';
+import FaqSection from './components/FaqSection';
 import ContactSection from './components/ContactSection';
 import Footer from './components/Footer';
 import FloatingContact from './components/FloatingContact';
@@ -40,7 +42,10 @@ export default function App() {
         {/* 7. Customer Reviews & Testimonials Section */}
         <ReviewsSection />
 
-        {/* 8. Location & Contact Section: Phone links, Directions, Address & Map */}
+        {/* 8. Frequently Asked Questions: FAQ Accordion for AI Search */}
+        <FaqSection />
+
+        {/* 9. Location & Contact Section: Phone links, Directions, Address & Map */}
         <ContactSection />
       </main>
 
@@ -49,6 +54,8 @@ export default function App() {
 
       {/* Floating Speed Dial: WhatsApp & Call Quick Access */}
       <FloatingContact />
+
+      <Analytics />
     </div>
   );
 }

@@ -104,9 +104,9 @@ export default function ReviewsSection() {
               <Sparkles className="w-4 h-4" />
               CUSTOMER EXPERIENCES
             </div>
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-heading font-extrabold text-white uppercase tracking-tight">
-              TRUSTED BY CHENNAI <span className="text-automotive-red">RIDERS & COMMUTERS.</span>
-            </h2>
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-heading font-extrabold text-white uppercase tracking-tight">
+            TRUSTED BIKE SPARE PARTS SHOP <span className="text-automotive-red">IN THARAMANI, CHENNAI.</span>
+          </h2>
             <p className="mt-3 text-base sm:text-lg text-automotive-muted max-w-2xl font-sans">
               Real feedback from motorcycle and scooter owners across Tharamani, Velachery, and OMR who rely on New Maruthi Automobiles for genuine spares, tyres, and oils.
             </p>

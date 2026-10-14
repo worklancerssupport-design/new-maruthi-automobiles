@@ -45,7 +45,7 @@ export default function CompatibilitySection() {
             TWO-WHEELER BRAND COVERAGE
           </div>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-heading font-extrabold text-white uppercase tracking-tight">
-            PARTS FOR THE <span className="text-automotive-red">BIKES YOU RIDE.</span>
+            BIKE SPARE PARTS <span className="text-automotive-red">FOR EVERY BRAND.</span>
           </h2>
           <p className="mt-3 text-base sm:text-lg text-automotive-muted font-sans">
             We stock compatible spare parts, filters, friction components, and routine service supplies for the most popular two-wheelers in Chennai.

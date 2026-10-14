@@ -22,7 +22,7 @@ export default function ContactSection() {
             STORE LOCATION & DIRECT CONTACT
           </div>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-heading font-extrabold text-white uppercase tracking-tight">
-            LOOKING FOR A SPARE PART? <span className="text-automotive-red">WE'RE HERE.</span>
+            VISIT OUR BIKE SPARE PARTS SHOP <span className="text-automotive-red">IN THARAMANI.</span>
           </h2>
           <p className="mt-3 text-base sm:text-lg text-automotive-muted font-sans">
             Visit our physical store in Tharamani, Chennai or contact our counter directly for part confirmation before you ride down.
@@ -60,6 +60,19 @@ export default function ContactSection() {
                 <span className="text-xs text-automotive-muted font-sans mt-2 block">
                   Landmark: On 100 Feet Road, Kattabomman Street intersection, Tharamani.
                 </span>
+              </div>
+
+              {/* Business Hours */}
+              <div className="mb-6 pb-6 border-b border-automotive-border/60">
+                <span className="text-xs font-heading font-bold uppercase tracking-wider text-automotive-silver block mb-3">
+                  Store Timings:
+                </span>
+                <div className="space-y-2">
+                  <div className="flex items-center justify-between p-2.5 rounded-lg bg-automotive-surface border border-automotive-border/60">
+                    <span className="text-xs sm:text-sm text-white font-sans">Monday – Sunday</span>
+                    <span className="text-xs sm:text-sm font-mono font-bold text-emerald-400">8:00 AM – 10:00 PM</span>
+                  </div>
+                </div>
               </div>
 
               {/* Verified Phone Actions */}

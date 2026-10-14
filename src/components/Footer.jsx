@@ -37,9 +37,9 @@ export default function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h4 className="text-xs font-heading font-bold uppercase tracking-widest text-white mb-4">
+            <h3 className="text-xs font-heading font-bold uppercase tracking-widest text-white mb-4">
               Navigation
-            </h4>
+            </h3>
             <ul className="space-y-2 text-xs">
               <li>
                 <a href="#hero" className="hover:text-automotive-red transition-colors">
@@ -81,9 +81,9 @@ export default function Footer() {
 
           {/* Spare Parts Available */}
           <div>
-            <h4 className="text-xs font-heading font-bold uppercase tracking-widest text-white mb-4">
+            <h3 className="text-xs font-heading font-bold uppercase tracking-widest text-white mb-4">
               Spare Parts Categories
-            </h4>
+            </h3>
             <ul className="space-y-2 text-xs">
               <li>
                 <a href="#spare-parts" className="hover:text-automotive-red transition-colors">
@@ -125,9 +125,9 @@ export default function Footer() {
 
           {/* Local Chennai Contact & CTA */}
           <div>
-            <h4 className="text-xs font-heading font-bold uppercase tracking-widest text-white mb-4">
+            <h3 className="text-xs font-heading font-bold uppercase tracking-widest text-white mb-4">
               Direct Contact
-            </h4>
+            </h3>
             <div className="space-y-3 text-xs mb-4">
               <div>
                 <span className="text-automotive-muted block">Landline:</span>
@@ -164,6 +164,9 @@ export default function Footer() {
             <p className="text-[11px] text-automotive-muted/70 mt-1">
               Independent two-wheeler spare parts retailer located in Tharamani, Chennai. All manufacturer logos and trademarks belong to their respective owners.
             </p>
+            <p className="text-[11px] text-automotive-muted/70 mt-1">
+              Category photos: motorcycle battery by 92GTA (CC BY-SA 4.0) and motorcycle engine by Shixart1985 (CC BY 2.0) via Wikimedia Commons.
+            </p>
           </div>
 
           <button
@@ -178,7 +181,7 @@ export default function Footer() {
 
         {/* Brand logo attributions (screen-reader accessible, visually hidden) */}
         <div className="sr-only">
-          <h2>Brand Logo Attributions</h2>
+              <h3>Brand Logo Attributions</h3>
           <ul>
             <li><a href="https://iconscout.com/icons/motul" target="_blank" rel="noopener noreferrer">Motul</a> by <a href="https://iconscout.com/contributors/icon-54" target="_blank" rel="noopener noreferrer">Icon 54</a> on <a href="https://iconscout.com" target="_blank" rel="noopener noreferrer">IconScout</a></li>
             <li><a href="https://iconscout.com/icons/honda" target="_blank" rel="noopener noreferrer">Honda</a> by <a href="https://iconscout.com/contributors/icon-mafia" target="_blank" rel="noopener noreferrer">Icon Mafia</a> on <a href="https://iconscout.com" target="_blank" rel="noopener noreferrer">IconScout</a></li>

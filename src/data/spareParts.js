@@ -64,7 +64,7 @@ export const sparePartsCategories = [
     title: 'Braking and Safety Components',
     subtitle: 'Brake Pads, Shoes, Cables & Security Locks',
     description: 'Crucial stopping and security components designed for reliable friction performance, fade resistance in Chennai traffic, and vehicle safety.',
-    image: '/images/mechanical_parts.jpg',
+    image: '/images/brake_disc_pads.jpg',
     categoryCode: 'CAT-04',
     brands: ['KBX', 'Endurance', 'Minda', 'Brembo Compatible'],
     items: [
@@ -83,7 +83,7 @@ export const sparePartsCategories = [
     title: 'Electrical Components',
     subtitle: 'Lighting, Flashers, Horns & Relays',
     description: 'Dependable electrical parts designed to withstand road vibration and monsoon moisture, keeping your lighting, ignition, and signals operating clearly.',
-    image: '/images/hero_motorcycle.jpg',
+    image: '/images/headlight_bulb.jpg',
     categoryCode: 'CAT-05',
     brands: ['Minda', 'Swiss', 'Lumax', 'Varroc'],
     items: [
@@ -102,7 +102,7 @@ export const sparePartsCategories = [
     title: 'Batteries',
     subtitle: '12V VRLA Maintenance-Free Batteries',
     description: 'Factory-sealed, zero-maintenance two-wheeler batteries delivering high cold-cranking amperes (CCA) for effortless push-button self-starts.',
-    image: '/images/about_workshop.jpg',
+    image: '/images/motorcycle_battery.jpg',
     categoryCode: 'CAT-06',
     brands: ['Powerzone'],
     items: [
@@ -138,7 +138,7 @@ export const sparePartsCategories = [
     title: 'General Two-Wheeler Spare Parts',
     subtitle: 'OEM-Compatible Spares Across All Major Makes',
     description: 'Comprehensive inventory of routine service and replacement spares covering Chennai’s most popular motorcycles and scooters from top Indian manufacturers.',
-    image: '/images/mechanical_parts.jpg',
+    image: '/images/general_spares.jpg',
     categoryCode: 'CAT-08',
     brands: ['Honda', 'Bajaj', 'TVS', 'Suzuki', 'Yamaha', 'Hero'],
     items: [

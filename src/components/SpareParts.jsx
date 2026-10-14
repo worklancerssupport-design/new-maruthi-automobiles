@@ -36,9 +36,9 @@ export default function SpareParts() {
               <span className="w-2 h-2 rounded-full bg-automotive-red animate-pulse" />
               EXPLORE OUR RANGE
             </div>
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-heading font-extrabold text-white uppercase tracking-tight">
-              THE RIGHT PART FOR <span className="text-automotive-red">EVERY RIDE.</span>
-            </h2>
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-heading font-extrabold text-white uppercase tracking-tight">
+            TWO-WHEELER SPARE PARTS <span className="text-automotive-red">IN THARAMANI, CHENNAI.</span>
+          </h2>
             <p className="mt-3 text-base sm:text-lg text-automotive-muted max-w-2xl font-sans">
               Explore essential two-wheeler spare parts, maintenance products and riding accessories available at New Maruthi Automobiles.
             </p>

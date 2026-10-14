@@ -119,12 +119,12 @@ export default function Hero() {
 
           {/* Main Headline */}
           <h1 className="text-4xl sm:text-6xl lg:text-7xl font-heading font-black text-white uppercase tracking-tight leading-[0.95] mb-6 drop-shadow-md">
-            EVERY RIDE.<br />
+            TWO-WHEELER<br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-automotive-text to-automotive-muted">
-              EVERY PART.
+              SPARE PARTS.
             </span><br />
             <span className="text-automotive-red drop-shadow-sm">
-              EVERY DETAIL.
+              THARAMANI, CHENNAI.
             </span>
           </h1>
 
@@ -168,7 +168,7 @@ export default function Hero() {
                 <Wrench className="w-4 h-4 text-automotive-red" />
               </div>
               <div>
-                <h4 className="text-xs font-heading font-bold uppercase text-white tracking-wide">Multi-Brand Spares</h4>
+                <h3 className="text-xs font-heading font-bold uppercase text-white tracking-wide">Multi-Brand Spares</h3>
                 <p className="text-[11px] text-automotive-muted font-sans leading-tight">Honda, Bajaj, TVS, Yamaha, Hero & Suzuki</p>
               </div>
             </div>
@@ -178,7 +178,7 @@ export default function Hero() {
                 <ShieldCheck className="w-4 h-4 text-automotive-red" />
               </div>
               <div>
-                <h4 className="text-xs font-heading font-bold uppercase text-white tracking-wide">Tyres, Oils & Spares</h4>
+                <h3 className="text-xs font-heading font-bold uppercase text-white tracking-wide">Tyres, Oils & Spares</h3>
                 <p className="text-[11px] text-automotive-muted font-sans leading-tight">MRF, CEAT, Castrol, Shell, Motul & Powerzone</p>
               </div>
             </div>
@@ -188,7 +188,7 @@ export default function Hero() {
                 <Compass className="w-4 h-4 text-automotive-red" />
               </div>
               <div>
-                <h4 className="text-xs font-heading font-bold uppercase text-white tracking-wide">Tharamani Store</h4>
+                <h3 className="text-xs font-heading font-bold uppercase text-white tracking-wide">Tharamani Store</h3>
                 <p className="text-[11px] text-automotive-muted font-sans leading-tight">100 Feet Road, Kattabomman Street</p>
               </div>
             </div>
