@@ -5,7 +5,6 @@ import BrandStrip from './components/BrandStrip';
 import SpareParts from './components/SpareParts';
 import BikeAnatomy from './components/BikeAnatomy';
 import CompatibilitySection from './components/CompatibilitySection';
-import LubricantsSection from './components/LubricantsSection';
 import AboutSection from './components/AboutSection';
 import ReviewsSection from './components/ReviewsSection';
 import ContactSection from './components/ContactSection';
@@ -35,16 +34,13 @@ export default function App() {
         {/* 5. Motorcycle Compatibility Section: 6 Manufacturers & WhatsApp Enquiry */}
         <CompatibilitySection />
 
-        {/* 6. Engine Oils & Lubricants Dedicated Showcase */}
-        <LubricantsSection />
-
-        {/* 7. About Store Section: Verified Local Destination Info */}
+        {/* 6. About Store Section: Verified Local Destination Info */}
         <AboutSection />
 
-        {/* 8. Customer Reviews & Testimonials Section */}
+        {/* 7. Customer Reviews & Testimonials Section */}
         <ReviewsSection />
 
-        {/* 9. Location & Contact Section: Phone links, Directions, Address & Map */}
+        {/* 8. Location & Contact Section: Phone links, Directions, Address & Map */}
         <ContactSection />
       </main>
 

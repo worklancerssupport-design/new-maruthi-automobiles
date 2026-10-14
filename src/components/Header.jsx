@@ -19,7 +19,6 @@ export default function Header() {
     { name: 'Brands', href: '#brands' },
     { name: 'Bike Anatomy', href: '#bike-anatomy' },
     { name: 'Compatibility', href: '#compatibility' },
-    { name: 'Engine Oils', href: '#lubricants' },
     { name: 'Reviews', href: '#reviews' },
     { name: 'About', href: '#about' },
     { name: 'Contact', href: '#contact' },
@@ -82,7 +81,6 @@ export default function Header() {
             <a href="#spare-parts" className="text-automotive-silver hover:text-white">Spares</a>
             <a href="#bike-anatomy" className="text-automotive-silver hover:text-white">Anatomy</a>
             <a href="#compatibility" className="text-automotive-silver hover:text-white">Compatibility</a>
-            <a href="#lubricants" className="text-automotive-silver hover:text-white">Oils</a>
             <a href="#reviews" className="text-automotive-silver hover:text-white">Reviews</a>
             <a href="#contact" className="text-automotive-silver hover:text-white">Contact</a>
           </nav>

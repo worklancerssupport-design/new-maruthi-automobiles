@@ -67,11 +67,6 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#lubricants" className="hover:text-automotive-red transition-colors">
-                  Engine Oils & Lubes Showcase
-                </a>
-              </li>
-              <li>
                 <a href="#about" className="hover:text-automotive-red transition-colors">
                   About Our Store
                 </a>
@@ -96,7 +91,7 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#lubricants" className="hover:text-automotive-red transition-colors">
+                <a href="#brands" className="hover:text-automotive-red transition-colors">
                   4T Engine Oils (Castrol, Shell, Motul, Servo)
                 </a>
               </li>
@@ -117,7 +112,7 @@ export default function Footer() {
               </li>
               <li>
                 <a href="#spare-parts" className="hover:text-automotive-red transition-colors">
-                  12V VRLA Batteries (Powerzone, Tata)
+                  12V VRLA Batteries (Powerzone)
                 </a>
               </li>
               <li>
@@ -179,6 +174,22 @@ export default function Footer() {
             <span>Back to top</span>
             <ArrowUp className="w-3.5 h-3.5 text-automotive-red" />
           </button>
+        </div>
+
+        {/* Brand logo attributions (screen-reader accessible, visually hidden) */}
+        <div className="sr-only">
+          <h2>Brand Logo Attributions</h2>
+          <ul>
+            <li><a href="https://iconscout.com/icons/motul" target="_blank" rel="noopener noreferrer">Motul</a> by <a href="https://iconscout.com/contributors/icon-54" target="_blank" rel="noopener noreferrer">Icon 54</a> on <a href="https://iconscout.com" target="_blank" rel="noopener noreferrer">IconScout</a></li>
+            <li><a href="https://iconscout.com/icons/honda" target="_blank" rel="noopener noreferrer">Honda</a> by <a href="https://iconscout.com/contributors/icon-mafia" target="_blank" rel="noopener noreferrer">Icon Mafia</a> on <a href="https://iconscout.com" target="_blank" rel="noopener noreferrer">IconScout</a></li>
+            <li><a href="https://iconscout.com/icons/bajaj" target="_blank" rel="noopener noreferrer">Bajaj</a> by <a href="https://iconscout.com/contributors/icon-mafia" target="_blank" rel="noopener noreferrer">Icon Mafia</a> on <a href="https://iconscout.com" target="_blank" rel="noopener noreferrer">IconScout</a></li>
+            <li><a href="https://iconscout.com/icons/yamaha" target="_blank" rel="noopener noreferrer">Yamaha</a> by <a href="https://iconscout.com/contributors/icon-mafia" target="_blank" rel="noopener noreferrer">Icon Mafia</a> on <a href="https://iconscout.com" target="_blank" rel="noopener noreferrer">IconScout</a></li>
+            <li><a href="https://iconscout.com/icons/hero" target="_blank" rel="noopener noreferrer">Hero</a> by <a href="https://iconscout.com/contributors/icon-mafia" target="_blank" rel="noopener noreferrer">Icon Mafia</a> on <a href="https://iconscout.com" target="_blank" rel="noopener noreferrer">IconScout</a></li>
+            <li><a href="https://iconscout.com/icons/suzuki" target="_blank" rel="noopener noreferrer">Suzuki</a> by <a href="https://iconscout.com/contributors/icon-mafia" target="_blank" rel="noopener noreferrer">Icon Mafia</a> on <a href="https://iconscout.com" target="_blank" rel="noopener noreferrer">IconScout</a></li>
+            <li><a href="https://iconscout.com/icons/castrol" target="_blank" rel="noopener noreferrer">Castrol</a> by <a href="https://iconscout.com/contributors/icon-mafia" target="_blank" rel="noopener noreferrer">Icon Mafia</a> on <a href="https://iconscout.com" target="_blank" rel="noopener noreferrer">IconScout</a></li>
+            <li><a href="https://iconscout.com/icons/shell" target="_blank" rel="noopener noreferrer">Shell</a> by <a href="https://iconscout.com/contributors/icon-54" target="_blank" rel="noopener noreferrer">Icon 54</a> on <a href="https://iconscout.com" target="_blank" rel="noopener noreferrer">IconScout</a></li>
+            <li><a href="https://iconscout.com/icons/bosch" target="_blank" rel="noopener noreferrer">Bosch</a> by <a href="https://iconscout.com/contributors/maninderkaur" target="_blank" rel="noopener noreferrer">maninderkaur</a> on <a href="https://iconscout.com" target="_blank" rel="noopener noreferrer">IconScout</a></li>
+          </ul>
         </div>
       </div>
     </footer>

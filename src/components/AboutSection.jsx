@@ -13,29 +13,13 @@ export default function AboutSection() {
           <div className="lg:col-span-6 relative">
             <div className="rounded-2xl overflow-hidden border border-automotive-border shadow-2xl relative bg-automotive-card group">
               <img
-                src="/images/about_workshop.jpg"
+                src="/images/shop.png"
                 alt="Motorcycle spare parts inventory and workshop racking at New Maruthi Automobiles"
                 className="w-full h-full object-cover min-h-[380px] filter brightness-95 group-hover:scale-102 transition-transform duration-700"
                 loading="lazy"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
 
-              {/* Overlay Badge */}
-              <div className="absolute bottom-6 left-6 right-6 p-4 rounded-xl bg-automotive-dark/90 backdrop-blur-md border border-automotive-border">
-                <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 rounded-lg bg-automotive-red text-white flex items-center justify-center font-heading font-black text-lg shadow-glow-red">
-                    NM
-                  </div>
-                  <div>
-                    <h4 className="text-sm font-heading font-bold uppercase text-white tracking-wider">
-                      NEW MARUTHI AUTOMOBILES
-                    </h4>
-                    <p className="text-xs text-automotive-muted font-sans">
-                      100 Feet Road, Tharamani, Chennai
-                    </p>
-                  </div>
-                </div>
-              </div>
             </div>
 
             {/* Corner Industrial Accent */}

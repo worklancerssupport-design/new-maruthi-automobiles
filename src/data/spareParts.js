@@ -104,16 +104,15 @@ export const sparePartsCategories = [
     description: 'Factory-sealed, zero-maintenance two-wheeler batteries delivering high cold-cranking amperes (CCA) for effortless push-button self-starts.',
     image: '/images/about_workshop.jpg',
     categoryCode: 'CAT-06',
-    brands: ['Powerzone', 'Tata'],
+    brands: ['Powerzone'],
     items: [
       { name: 'Powerzone 2.5Ah & 4Ah VRLA', desc: 'Ideal for 100cc–125cc commuter bikes and kick-start models' },
       { name: 'Powerzone 5Ah & 7Ah Batteries', desc: 'High-power cranking for 150cc–220cc self-start motorcycles' },
-      { name: 'Tata Green Velocity 12V Series', desc: 'Advanced lead-acid grid technology with long shelf life' },
       { name: 'Scooter VRLA Compact Batteries', desc: 'Factory-sealed batteries for Honda Activa, Jupiter, Access' },
       { name: 'Battery Terminals & Fasteners', desc: 'Lead coated terminal nuts, anti-corrosion grease, and clips' }
     ],
     highlight: 'Spill-proof, valve-regulated design with strong cranking power',
-    whatsappMessage: 'Hello New Maruthi Automobiles, I would like to enquire about two-wheeler batteries (Powerzone / Tata). Please let me know compatible capacities for my bike.'
+    whatsappMessage: 'Hello New Maruthi Automobiles, I would like to enquire about two-wheeler batteries (Powerzone). Please let me know compatible capacities for my bike.'
   },
   {
     id: 'body-accessories',

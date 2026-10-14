@@ -152,8 +152,8 @@ export const bikeComponents = [
     categoryName: 'Batteries',
     categoryId: 'batteries',
     relevantProducts: ['2.5Ah, 4Ah, 5Ah, 7Ah 12V VRLA batteries', 'Maintenance-free motorcycle batteries', 'Battery terminal clamps'],
-    confirmedBrands: ['Powerzone', 'Tata'],
-    whatsappPrefill: 'Hello New Maruthi Automobiles, I want to enquire about a new 12V battery (Powerzone / Tata) for my two-wheeler. Please let me know available capacities.'
+    confirmedBrands: ['Powerzone'],
+    whatsappPrefill: 'Hello New Maruthi Automobiles, I want to enquire about a new 12V battery (Powerzone) for my two-wheeler. Please let me know available capacities.'
   },
   {
     id: 'headlight-electrical',

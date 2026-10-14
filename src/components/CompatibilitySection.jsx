@@ -71,11 +71,15 @@ export default function CompatibilitySection() {
                   <div className="absolute top-0 left-0 right-0 h-1 bg-automotive-red" />
                 )}
 
-                {/* Vector Brand Logo */}
-                <div
-                  className="w-full max-w-[100px] h-9 flex items-center justify-center my-2"
-                  dangerouslySetInnerHTML={{ __html: brand.logoSvg }}
-                />
+                {/* Brand Logo */}
+                <div className="w-full max-w-[100px] h-9 flex items-center justify-center my-2">
+                  <img
+                    src={brand.logoSrc}
+                    alt={`${brand.name} logo`}
+                    className="w-full h-full object-contain"
+                    loading="lazy"
+                  />
+                </div>
 
                 <span className="text-xs font-heading font-bold uppercase tracking-wider text-white">
                   {brand.name} Spares

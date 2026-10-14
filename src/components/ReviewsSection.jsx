@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Star, Quote, CheckCircle2, MessageSquare, ThumbsUp, Bike, Sparkles, ChevronLeft, ChevronRight, MapPin } from 'lucide-react';
+import { Star, Quote, CheckCircle2, ThumbsUp, Bike, Sparkles, ChevronLeft, ChevronRight, MapPin } from 'lucide-react';
 
 export default function ReviewsSection() {
   const [filter, setFilter] = useState('all');
@@ -89,11 +89,6 @@ export default function ReviewsSection() {
   const filteredReviews = filter === 'all'
     ? reviews
     : reviews.filter((r) => r.category === filter);
-
-  const handleShareFeedback = () => {
-    const text = encodeURIComponent('Hello New Maruthi Automobiles, I recently visited your Tharamani store and wanted to share my feedback / enquiry regarding two-wheeler spares.');
-    window.open(`https://wa.me/919444018868?text=${text}`, '_blank', 'noopener,noreferrer');
-  };
 
   return (
     <section id="reviews" className="py-24 bg-automotive-dark border-t border-automotive-border relative overflow-hidden">
@@ -237,13 +232,15 @@ export default function ReviewsSection() {
           </div>
 
           <div className="flex flex-wrap items-center gap-3 shrink-0">
-            <button
-              onClick={handleShareFeedback}
+            <a
+              href="https://search.google.com/local/writereview?placeid=ChIJ8ZWDzXtdUjoReBPC5KmiH8E"
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-automotive-red hover:bg-automotive-redHover text-white py-3 px-5 rounded-xl font-heading font-bold uppercase tracking-wider text-xs transition-all flex items-center gap-2 shadow-glow-red hover:shadow-glow-red-lg active:scale-95"
             >
-              <MessageSquare className="w-4 h-4" />
-              Share Feedback on WhatsApp
-            </button>
+              <Star className="w-4 h-4" />
+              Google Review
+            </a>
             <a
               href="tel:04422436083"
               className="bg-automotive-card hover:bg-automotive-cardHover text-white py-3 px-5 rounded-xl font-heading font-bold uppercase tracking-wider text-xs transition-all border border-automotive-border"

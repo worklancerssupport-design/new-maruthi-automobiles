@@ -49,7 +49,7 @@ export default function BrandStrip() {
           {filteredBrands.map((brand) => (
             <div
               key={brand.name}
-              className="group bg-automotive-card hover:bg-automotive-cardHover border border-automotive-border hover:border-automotive-borderHover rounded-xl p-4 transition-all duration-300 flex flex-col items-center justify-center text-center relative overflow-hidden min-h-[110px]"
+              className="group bg-automotive-card hover:bg-automotive-cardHover border border-automotive-border hover:border-automotive-borderHover rounded-xl p-4 transition-all duration-300 flex flex-col items-center justify-center text-center relative overflow-hidden min-h-[125px]"
             >
               {/* Top Accent Strip */}
               <div
@@ -57,11 +57,17 @@ export default function BrandStrip() {
                 style={{ backgroundColor: brand.accentColor }}
               />
 
-              {/* Render Authentic SVG Logo */}
-              <div
-                className="w-full max-w-[120px] h-9 flex items-center justify-center mb-2.5 filter drop-shadow group-hover:scale-105 transition-transform"
-                dangerouslySetInnerHTML={{ __html: brand.logoSvg }}
-              />
+              {/* Logo */}
+              <div className="w-full max-w-[148px] h-12 flex items-center justify-center mb-2.5">
+                <img
+                  src={brand.logoSrc}
+                  alt={`${brand.name} logo`}
+                  className={`w-full h-full object-contain transition-transform ${
+                    brand.name === 'Motul' ? 'scale-[2.4] group-hover:scale-[2.4]' : 'group-hover:scale-[1.03]'
+                  }`}
+                  loading="lazy"
+                />
+              </div>
 
               {/* Brand Tagline / Subtitle */}
               <span className="text-[11px] text-automotive-muted font-sans font-medium line-clamp-1 group-hover:text-automotive-silver transition-colors">
